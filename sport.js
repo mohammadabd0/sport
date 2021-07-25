@@ -38,7 +38,6 @@ function rate(){
   while(rates>5){
     rates =prompt("please repeate your rate from 1-5")
   }
-
     return rate;
 }
 rate();
