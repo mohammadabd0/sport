@@ -35,9 +35,10 @@ document.write(
   var rates = prompt("What star rating would you give, 1-5?")
 
 function rate(){
-  for(i=0;rates<=5;i++)
+  while(rates>5){
+    rates =prompt("please repeate your rate from 1-5")
+  }
 
-  alert("the rate you give "+rates)
     return rate;
 }
 rate();
